@@ -216,7 +216,8 @@ node scripts/dsh-runner.mjs video --keep-alive
 
 - **GitHub Issue**：https://github.com/H1088880/video-workbench-standalone/issues
 - **开源协议**：[MIT License](./LICENSE)
-- **致谢**：本项目基于 Merziller 开源的 `dsh-video-workbench` 改造为独立运行版本，保留原作者署名与 MIT 授权。
+- **原创作者**：**Merziller**（[原项目 dsh-video-workbench](https://github.com/Merziller/dsh-video-workbench)）
+- **致谢**：本独立版基于原作者 Merziller 的开源项目改造，保留原作者署名，并遵循 MIT 授权。
 
 ---
 
@@ -225,3 +226,5 @@ node scripts/dsh-runner.mjs video --keep-alive
 **AI Video Workbench (Standalone Edition)** is a dual-engine (Remotion 4.x TSX + HTML5/Canvas with Three.js) multi-agent AI video studio that runs entirely standalone in your browser — no host application required. It orchestrates a 4-Agent pipeline (`Director → Asset Editor → TTS/SFX/BGM Mixer → Motion Coder & QA Renderer`) with adaptive genre pacing, FFT/RMS BGM beat-sync (`tts`, `tts-beat-sync`, `subtitle-mv`), multi-engine TTS (`IndexTTS-2.5`, `GPT-SoVITS`, zero-GPU Windows SAPI, plus importable OpenAI/HTTP/CPU-CLI models) with voice cloning, real-time **Hardware Preflight & Low-Spec Protection Mode** (8GB RAM + iGPU/CPU-only supported), commercial-safe OFL typography, and model-agnostic 4-protocol LLM authoring.
 
 **Quick start**: double-click `启动视频工作台.cmd` (Windows), or run `npm install && node start.mjs`, then open `http://127.0.0.1:4399`. Requires Node.js 22+ and FFmpeg on PATH. Released under the [MIT License](./LICENSE).
+
+**Original author**: **Merziller** ([original project](https://github.com/Merziller/dsh-video-workbench)). This standalone edition is adapted from the original open-source work, with the author credit preserved.
