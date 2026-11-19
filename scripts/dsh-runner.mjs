@@ -131,7 +131,7 @@ async function main() {
 
   // Start HTTP Verification / Standalone Preview Server for `dsh-web-video-workbench`
   const RUNNER_VERSION = 'v8'
-  const basePort = Number(process.env.DSH_VIDEO_PORT || 4399)
+  const basePort = Number(process.env.VIDEO_PORT || process.env.DSH_VIDEO_PORT || 4399)
   const smokeMode = flags.has('--smoke') || flags.has('--verify') || !flags.has('--keep-alive')
   const shouldOpenBrowser = flags.has('--open')
 
@@ -376,7 +376,7 @@ async function main() {
   if (actualPort !== basePort) {
     console.log(`⚠️  Port ${basePort} was busy (e.g. legacy process); auto-bound to free port http://127.0.0.1:${actualPort}`)
   }
-  console.log(`\n✅ DSH Video Workbench Service listening at: http://127.0.0.1:${actualPort}`)
+  console.log(`\n✅ AI 视频工作台服务已启动: http://127.0.0.1:${actualPort}`)
 
   // Perform quick live HTTP self-check against `/api/video-workbench/state`
   const stateResp = await fetch(`http://127.0.0.1:${actualPort}/api/video-workbench/state`)
