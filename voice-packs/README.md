@@ -1,4 +1,4 @@
-# 🎙️ DSH Video Workbench 音色包规范 (Voice Pack Specification)
+# 🎙️ AI 视频工作台 音色包规范 (Voice Pack Specification)
 
 本目录用于管理本地 TTS 引擎（`IndexTTS-2` 与 `GPTvoice-tts / GPT-SoVITS`）的音色资产库。支持 **导入自定义音色包**、**AI 根据分镜情绪/角色/受众自动匹配音色** 以及 **用户指定音色**。
 
