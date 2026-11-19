@@ -1,0 +1,29 @@
+# Dependencies (installed via npm install)
+node_modules/
+
+# Local environment config (contains machine-specific paths / future API keys)
+.env
+
+# Runtime data generated at startup (projects, profiles, uploads, temp)
+projects/
+profiles/
+.dsh-home/
+.tmp/
+llm-config.json
+tts-config.json
+hardware-preferences.json
+
+# Voice packs imported by the user (keep catalog/README templates)
+voice-packs/imported/
+voice-packs/voice_library.json
+
+# Logs and OS junk
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
