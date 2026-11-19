@@ -212,12 +212,20 @@ node scripts/dsh-runner.mjs video --keep-alive
 
 ## 📬 联系与致谢
 
-使用过程中遇到配置问题、Bug 反馈或功能建议，欢迎通过本仓库的 Issue 反馈：
+> 本项目由 **Merziller** 原创开发并基于 [MIT 许可开源](./LICENSE) **完全免费发布**，欢迎个人创作者、开源社区及各类 AI 智能体用户使用与二次开发。
+>
+> ⚠️ **防盗用与版权名要求**：根据 [LICENSE](./LICENSE) 与 [NOTICE](./NOTICE)，任何复制、二次修改、备份分发、清理上架或视频教程展示，均须保留原作者 Merziller 的版权名及以下联系信息，严禁抹除版权名冒充原创或倒卖套壳。
 
-- **GitHub Issue**：https://github.com/H1088880/video-workbench-standalone/issues
-- **开源协议**：[MIT License](./LICENSE)
-- **原创作者**：**Merziller**（[原项目 dsh-video-workbench](https://github.com/Merziller/dsh-video-workbench)）
-- **致谢**：本独立版基于原作者 Merziller 的开源项目改造，保留原作者署名，并遵循 MIT 授权。
+**原作者信息与版权声明（Original Author & Credits）**：
+
+- **原创作者 / Original Author**：`Merziller`
+- **作者 QQ**：`1411574209`
+- **作者微信 / WeChat**：`Merziller`
+- **作者邮箱 / Gmail**：`k267899228@gmail.com`
+- **官方开源仓库 / GitHub**：https://github.com/Merziller/dsh-video-workbench
+- **Bug 反馈与功能建议**：https://github.com/Merziller/dsh-video-workbench/issues
+
+本独立运行版本基于原作者 Merziller 的开源项目改造，遵循 MIT 授权并完整保留上述署名与版权信息。本独立版的 Issue 反馈：https://github.com/H1088880/video-workbench-standalone/issues
 
 ---
 
@@ -227,4 +235,4 @@ node scripts/dsh-runner.mjs video --keep-alive
 
 **Quick start**: double-click `启动视频工作台.cmd` (Windows), or run `npm install && node start.mjs`, then open `http://127.0.0.1:4399`. Requires Node.js 22+ and FFmpeg on PATH. Released under the [MIT License](./LICENSE).
 
-**Original author**: **Merziller** ([original project](https://github.com/Merziller/dsh-video-workbench)). This standalone edition is adapted from the original open-source work, with the author credit preserved.
+**Original author**: **Merziller** ([original project](https://github.com/Merziller/dsh-video-workbench)) · QQ `1411574209` · WeChat `Merziller` · Email `k267899228@gmail.com`. This standalone edition is adapted from the original open-source work; the author credit and copyright notice ([NOTICE](./NOTICE)) are preserved in full.
